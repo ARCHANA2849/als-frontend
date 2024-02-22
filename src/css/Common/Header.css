@@ -1,0 +1,80 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Align header elements to the left and right */
+  align-items: center; /* Vertically center header elements */
+  padding: 0px 0px; /* Add padding for spacing */
+  background-color: #f7e5e5;
+  color: #333; /* Dark gray text */
+  position: fixed; /* Fix header at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Ensure header stays on top */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Left section of the header */
+.header-left {
+  margin-left: 15px;
+  display: flex;
+  align-items: center; /* Vertically align logo and company name */
+}
+
+/* Container for logo and company name */
+.logo-and-company {
+  display: flex;
+  align-items: center; /* Vertically align logo and company name */
+  margin-right: 15px; /* Add margin between left and right sections */
+}
+
+/* Header logo */
+.header-logo {
+  height: 25px; /* Adjust image height as needed */
+}
+
+/* Company information */
+.company-info {
+  margin-left: 10px; /* Add margin between logo and company name */
+}
+
+/* Company name styling */
+.company-name {
+  font-weight: bold; /* Make company name bold */
+  font-style: italic; /* Make company name italic */
+}
+
+/* Right section of the header */
+.header-right {
+  display: flex;
+  align-items: center; /* Vertically center user information and menu */
+}
+
+/* User information */
+.header-user {
+  margin-right: 15px; /* Add margin between user information and menu */
+}
+
+/* User icon */
+.user-icon {
+  height: 30px; /* Adjust image height as needed */
+  margin-right: 5px; /* Add margin between icon and username */
+}
+
+/* Menu styling (optional) */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 10px; /* Add margin between menu items */
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #000;
+}
